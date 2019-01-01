@@ -19,7 +19,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"coverage": "cat ./coverage/lcov.info | coveralls"
+		"coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
 	},
 	"husky": {
 		"hooks": {

@@ -32,7 +32,6 @@ class Autocomplete extends React.Component<any, State> {
 	}
 
 	getAutoSearch = () => {
-		/*istanbul ignore next*/
 		const observer = {
 			next: (value: Array<Array<string>>) => {
 				this.setState({
@@ -51,7 +50,6 @@ class Autocomplete extends React.Component<any, State> {
 		const exceedMaxLength$ = this.search$.pipe(
 			filter((val: string) => val.length > MAXSEARCHLENGTH)
 		)
-		/*istanbul ignore next*/
 		this.search$
 			.pipe(
 				debounceTime(500),

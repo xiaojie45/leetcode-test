@@ -55,5 +55,8 @@
 			"src/**/*.{js,jsx,tsx}",
 			"!src/index.{js,jsx,tsx}"
 		]
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }

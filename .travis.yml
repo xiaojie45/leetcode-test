@@ -16,7 +16,8 @@ after_success:
 deploy:
   provider: npm
   email: "418022698@qq.com"
-  api_key: "87016a48-ce9f-49ea-8cdc-f8f0fcfe8c0e"
+  api_key: $NPM_TOKEN
+  skip_cleanup: true
   on:
     tags: true
 

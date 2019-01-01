@@ -7,6 +7,12 @@
 
 In the project directory, you can run:
 
-### `npm start`
+### 运行`npm start`
 
-### `npm test`
+可以运行本项目
+
+### 运行`npm test -- --coverage`
+
+可以获得测试的覆盖率
+
+### 当打 tag 的时候会自动发布 npm

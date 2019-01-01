@@ -18,6 +18,8 @@ deploy:
   email: "418022698@qq.com"
   api_key: $NPM_TOKEN
   skip_cleanup: true
+  github-token: $GITHUB_API_KEY
+  keep-history: true
   on:
     tags: true
 

@@ -12,3 +12,5 @@
 可以获得测试的覆盖率
 
 ### 当打 tag 的时候会自动发布 npm
+
+[npm 地址](https://www.npmjs.com/package/@xiaojie45/leetcode-autocomplete)

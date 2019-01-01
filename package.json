@@ -1,5 +1,5 @@
 {
-	"name": "leetcode-test",
+	"name": "@xiaojie45/leetcode-autocomplete",
 	"version": "0.1.0",
 	"dependencies": {
 		"@types/jest": "^23.3.10",

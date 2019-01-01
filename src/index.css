@@ -12,3 +12,8 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
 }
+
+pre {
+	-moz-tab-size: 2;
+	tab-size: 2;
+}
